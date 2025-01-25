@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>New tab</title>
+</head>
+<body style="background-color:black;">
+    <h1>Google</h1>
+    <DIV id="rayyan">
+       <img src="/icons8-search-30.png" style="padding: 10px;"><input type="text" placeholder="search..." ><img src="/7123011_google_mic_icon.png"><img src="/7123028_lens_google_icon.png">
+    </DIV>
+</body>
+</html>
+
+
+CSS:
+h1{
+text-align: center;
+color: white;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 700;
+margin-top: 170px;
+font-size: 60px;
+position: absolute
+top
+;
+}
+body{
+    background-image:url(/image.png);
+    background-size:cover;
+}
+#rayyan{
+    size: 100px;
+    background-color: antiquewhite;
+    position: absolute top;
+    display: flex;
+    justify-content: center;
+    height: 35px;
+     width: 650px;
+     border-radius: 100px;
+     margin-left: 350px;  
+}
+input{
+    width: 1000px;
+    cursor: auto;
+    background-color: antiquewhite;
+}
+img{
+    border: 10px;
+}
+title{
+    border-image-source:"/chrome-64.png";
+}
